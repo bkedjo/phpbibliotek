@@ -1,7 +1,7 @@
 <?php
 
 define("ROOT", str_replace('index.php', '', $_SERVER['SCRIPT_FILENAME']));
-define("URI", 'http://localhost/bibliophp/');
+define("URI", 'http://localhost/phpbibliotek/');
 require_once ROOT . "autoload.php";
 $params = explode("/", $_GET['p']); //    auths/register/
 // print_r($params);
